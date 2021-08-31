@@ -1,30 +1,26 @@
 # 100 Days Of Code - Log
 
-### Day 0: February 30, 2016 (Example 1)
-##### (delete me or comment me out)
+### Day 0: August 29, 2021
 
-**Today's Progress**: Fixed CSS, worked on canvas functionality for the app.
+**Today's Progress**: 
+1. Updated personal website with graphically interesting pictures, a darker brown bottom navbar, and border radius on two of the pics to make things less boxy.
+2. Created the finance-playground repository. Created a simple python file that basically does the PMT function in excel for installment loans.
 
-**Thoughts:** I really struggled with CSS, but, overall, I feel like I am slowly getting better at it. Canvas is still new for me, but I managed to figure out some basic functionality.
+**Thoughts:** Liking the new website design a lot. In terms of future improvements, I could see adding a 'contact me' form to supplement email/linkedin links, a blog page for documenting coding/art topics I'm learning, and a virtual art gallery for watercolor paintings and drawings. I'm also excited to formalize my financial knowledge using coding. (Writing a useful program is a good way to ensure you really understand the math.)
 
-**Link to work:** [Calculator App](http://www.example.com)
+**Link to work:** 
+1. [Personal Website](https://lenaerickson.com/)
+2. [amortization_schedule.py](https://github.com/lecerick/finance-playground/blob/main/amortization_schedule.py)
 
-### Day 0: February 30, 2016 (Example 2)
-##### (delete me or comment me out)
+### Day 1: August 30, 2021
 
-**Today's Progress**: Fixed CSS, worked on canvas functionality for the app.
+**Today's Progress**: Added a very basic discounting function to the AmSchedule class in finance-playground.
 
-**Thoughts**: I really struggled with CSS, but, overall, I feel like I am slowly getting better at it. Canvas is still new for me, but I managed to figure out some basic functionality.
+**Thoughts**: Introducing compounding conventions could be a good way to spice up the AmSchedule. I'm less familiar with semi-annual discounting (bond markets) than monthly (mortgage markets), so that could be a learning opportunity. Also [daycount conventions](https://www.investopedia.com/terms/d/daycount.asp) (30/360 vs. 30/365 vs. actual/360 vs. actual/365 vs. actual/actual).
 
-**Link(s) to work**: [Calculator App](http://www.example.com)
+### Day 2: August 31, 2021
 
+**Today's Progress**: Forked the #100-Days-Of-Code repo.
 
-### Day 1: June 27, Monday
+**Thoughts** Recording my progress in the form of this log is going to be helpful, especially if I stall at any point and need to look back on prior thoughts for inspiration. I also spent some time looking through other github users' logs to see what they're working on, and that's a good source of ideas too! 
 
-**Today's Progress**: I've gone through many exercises on FreeCodeCamp.
-
-**Thoughts** I've recently started coding, and it's a great feeling when I finally solve an algorithm challenge after a lot of attempts and hours spent.
-
-**Link(s) to work**
-1. [Find the Longest Word in a String](https://www.freecodecamp.com/challenges/find-the-longest-word-in-a-string)
-2. [Title Case a Sentence](https://www.freecodecamp.com/challenges/title-case-a-sentence)
