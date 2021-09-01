@@ -26,8 +26,8 @@
 
 ### Day 3: September 1, 2021
 
-**Today's Progress**: Created a new repo for [Project Euler](https://projecteuler.net/archives) problems, and write a python script for Problem #1.
+**Today's Progress**: Created a new repo for [Project Euler](https://projecteuler.net/archives) problems, and wrote a python script for Problem #1.
 
-**Thoughts** First problem was pretty straightforward. In these problems, there's definitely more or less efficient ways to solve them. I wonder if there's a package or function I can use to time the operations and compare efficiencies, sort of like they do in LeetCode.
+**Thoughts** #1 was straightforward. There's definitely more or less efficient ways to solve these challenges... I wonder if there's a package or function I can use to time the operations and compare efficiencies, sort of like they do in LeetCode?
 
 **Link to work:** [Project Euler Problem #1](https://github.com/lecerick/project-euler/blob/main/problem1.py)
