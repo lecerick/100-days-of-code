@@ -31,3 +31,7 @@
 **Thoughts** #1 was straightforward. There's definitely more or less efficient ways to solve these challenges... I wonder if there's a package or function I can use to time the operations and compare efficiencies, sort of like they do in LeetCode?
 
 **Link to work:** [Project Euler Problem #1](https://github.com/lecerick/project-euler/blob/main/problem1.py)
+
+### Day 4: September 2, 2021
+
+**Today's Progress**: [Problem #2](https://github.com/lecerick/project-euler/blob/main/problem2.py) solved, but only by brute force.
