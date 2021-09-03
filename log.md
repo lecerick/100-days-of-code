@@ -35,3 +35,7 @@
 ### Day 4: September 2, 2021
 
 **Today's Progress**: [Problem #2](https://github.com/lecerick/project-euler/blob/main/problem2.py) solved, but only by brute force.
+
+### Day 5: September 3, 2021
+
+**Today's Progress**: Created some dummy data / tables and did my first [SQL join](https://github.com/lecerick/finance-playground/blob/main/joins.sql).
