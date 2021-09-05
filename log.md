@@ -39,3 +39,7 @@
 ### Day 5: September 3, 2021
 
 **Today's Progress**: Created some dummy data / tables and did my first [SQL join](https://github.com/lecerick/finance-playground/blob/main/joins.sql).
+
+### Day 6-7: September 4-5, 2021
+
+**Today's Progress**: Started playing around with the [pyglet](https://github.com/pyglet/pyglet) python package, their [starting guide](https://pyglet.readthedocs.io/en/latest/programming_guide/quickstart.html) in the documentation. Not hosting this as a repository in github though since I'm just playing around with it for fun on the long Labor Day weekend.
