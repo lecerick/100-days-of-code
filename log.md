@@ -7,7 +7,7 @@
 
 ### Day 1: Mon Aug 30, 2021
 
-Added a basic discounting function to the AmSchedule class in finance-playground. Looking foward, introducing compounding conventions could be a good way to spice up the AmSchedule. I'm less familiar with semi-annual discounting (bond markets) than monthly (mortgage markets), so that could be a learning opportunity. Also [daycount conventions](https://www.investopedia.com/terms/d/daycount.asp) (30/360 vs. 30/365 vs. actual/360 vs. actual/365 vs. actual/actual).
+Added a basic discounting function to the AmSchedule class in finance-playground. Looking foward, introducing compounding conventions and/or [daycount conventions](https://www.investopedia.com/terms/d/daycount.asp) (30/360 vs. 30/365 vs. actual/360 vs. actual/365 vs. actual/actual) could be a good way to spice up the AmSchedule. I'm less familiar with semi-annual discounting (bond markets) than monthly (mortgage markets), so that could be a learning opportunity.
 
 ### Day 2: Tues Aug 31, 2021
 
@@ -15,11 +15,11 @@ Forked the #100-Days-Of-Code repo. Loggin my progress could be helpful, especial
 
 ### Day 3: Wed Sept 1, 2021
 
-Created a new repo for [Project Euler](https://projecteuler.net/archives) problems, and wrote a python script for [PE Problem #1](https://github.com/lecerick/project-euler/blob/main/problem1.py), which was straightforward. There's definitely more or less efficient ways to solve these challenges... I wonder if there's a package or function I can use to time the operations and compare efficiencies, sort of like they do in LeetCode? 
+Created a new repo for [Project Euler](https://projecteuler.net/archives) problems, and wrote a python script for [PE Problem #1](https://github.com/lecerick/project-euler/blob/main/problem001.py), which was straightforward. There's definitely more or less efficient ways to solve these challenges... I wonder if there's a package or function I can use to time the operations and compare efficiencies, sort of like they do in LeetCode? 
 
 ### Day 4: Thurs Sept 2, 2021
 
-[PE Problem #2](https://github.com/lecerick/project-euler/blob/main/problem2.py) solved, but only by brute force.
+[PE Problem #2](https://github.com/lecerick/project-euler/blob/main/problem002.py) solved, but only by brute force.
 
 ### Day 5: Fri Sept 3, 2021
 
@@ -31,4 +31,4 @@ Started playing around with the [pyglet](https://github.com/pyglet/pyglet) pytho
 
 ### Day 8: Mon Sept 6, 2021
 
-[PE Problem #3](https://github.com/lecerick/project-euler/blob/main/problem3.py) solved. Today's problem was to find the largest prime factor of a relatively big number. This is the first PE problem where I ran into run time issues with my original implementation (which worked on the smaller number just fine). So I had to come up with a more elegant approach out of necessity. 
+[PE Problem #3](https://github.com/lecerick/project-euler/blob/main/problem003.py) solved. Today's problem was to find the largest prime factor of a relatively big number. This is the first PE problem where I ran into run time issues with my original implementation (which worked on the smaller number just fine). So I had to come up with a more elegant approach out of necessity. 
