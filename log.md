@@ -43,3 +43,8 @@
 ### Day 6-7: September 4-5, 2021
 
 **Today's Progress**: Started playing around with the [pyglet](https://github.com/pyglet/pyglet) python package, their [starting guide](https://pyglet.readthedocs.io/en/latest/programming_guide/quickstart.html) in the documentation. Not hosting this as a repository in github though since I'm just playing around with it for fun on the long Labor Day weekend.
+
+### Day 8: September 6, 2021
+
+**Today's Progress**: [Problem #3](https://github.com/lecerick/project-euler/blob/main/problem3.py) solved
+**Thoughts:** Today's problem was to find the largest prime factor of a relatively big number. This is the first PE problem where I ran into run time issues with my original implementation (which worked on the smaller number just fine). So I had to come up with a more elegant approach out of necessity. 
