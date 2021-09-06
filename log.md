@@ -2,49 +2,35 @@
 
 ### Day 0: August 29, 2021
 
-**Today's Progress**: 
-1. Updated personal website with graphically interesting pictures, a darker brown bottom navbar, and border radius on two of the pics to make things less boxy.
-2. Created the finance-playground repository. Created a simple python file that basically does the PMT function in excel for installment loans.
+1. Updated personal website with graphically interesting pictures, a darker brown bottom navbar, and border radius on two of the pics to make things less boxy. [Personal Website](https://lenaerickson.com/)
+2. Created the finance-playground repository. Created a simple python file that basically does the PMT function in excel for installment loans.[amortization_schedule.py](https://github.com/lecerick/finance-playground/blob/main/amortization_schedule.py)
 
-**Thoughts:** Liking the new website design a lot. In terms of future improvements, I could see adding a 'contact me' form, a blog, and a virtual art gallery. I'm also excited to formalize my financial knowledge using coding. (Writing a useful program is a good way to ensure you really understand the math.)
-
-**Link to work:** 
-1. [Personal Website](https://lenaerickson.com/)
-2. [amortization_schedule.py](https://github.com/lecerick/finance-playground/blob/main/amortization_schedule.py)
+Liking the new website design a lot. In terms of future improvements, I could see adding a 'contact me' form, a blog, and a virtual art gallery. I'm also excited to formalize my financial knowledge using coding. (Writing a useful program is a good way to ensure you really understand the math.)
 
 ### Day 1: August 30, 2021
 
-**Today's Progress**: Added a very basic discounting function to the AmSchedule class in finance-playground.
-
-**Thoughts**: Introducing compounding conventions could be a good way to spice up the AmSchedule. I'm less familiar with semi-annual discounting (bond markets) than monthly (mortgage markets), so that could be a learning opportunity. Also [daycount conventions](https://www.investopedia.com/terms/d/daycount.asp) (30/360 vs. 30/365 vs. actual/360 vs. actual/365 vs. actual/actual).
+Added a very basic discounting function to the AmSchedule class in finance-playground. Looking foward, introducing compounding conventions could be a good way to spice up the AmSchedule. I'm less familiar with semi-annual discounting (bond markets) than monthly (mortgage markets), so that could be a learning opportunity. Also [daycount conventions](https://www.investopedia.com/terms/d/daycount.asp) (30/360 vs. 30/365 vs. actual/360 vs. actual/365 vs. actual/actual).
 
 ### Day 2: August 31, 2021
 
-**Today's Progress**: Forked the #100-Days-Of-Code repo.
-
-**Thoughts** Recording my progress in the form of this log is going to be helpful, especially if I stall at any point and need to look back on prior thoughts for inspiration. I also spent some time looking through other github users' logs to see what they're working on, and that's a good source of ideas too! [Data Science](https://github.com/emiliehwolf/100-days-of-code/blob/master/log.md) // [Spotify API](https://github.com/miukimiu/100-days-of-code/blob/master/log.md) // [Completed All 100 Days! Grab Bag of Topics](https://github.com/Mmgfrog/100-days-of-code/blob/master/log.md) // [Advanced Webdev](https://github.com/nativedone/100-days-of-code/blob/master/log.md) // [Beginner Projects](https://github.com/rachaelcodes/100-days-of-code/blob/master/log2017.md) // [Full List of Forks](https://github.com/kallaway/100-days-of-code/network/members)
+Forked the #100-Days-Of-Code repo. Recording my progress in the form of this log is going to be helpful, especially if I stall at any point and need to look back on prior thoughts for inspiration. I also spent some time looking through other github users' logs to see what they're working on, and that's a good source of ideas too! [Data Science](https://github.com/emiliehwolf/100-days-of-code/blob/master/log.md) // [Spotify API](https://github.com/miukimiu/100-days-of-code/blob/master/log.md) // [Completed All 100 Days! Grab Bag of Topics](https://github.com/Mmgfrog/100-days-of-code/blob/master/log.md) // [Advanced Webdev](https://github.com/nativedone/100-days-of-code/blob/master/log.md) // [Beginner Projects](https://github.com/rachaelcodes/100-days-of-code/blob/master/log2017.md) // [Full List of Forks](https://github.com/kallaway/100-days-of-code/network/members)
 
 ### Day 3: September 1, 2021
 
-**Today's Progress**: Created a new repo for [Project Euler](https://projecteuler.net/archives) problems, and wrote a python script for Problem #1.
-
-**Thoughts** #1 was straightforward. There's definitely more or less efficient ways to solve these challenges... I wonder if there's a package or function I can use to time the operations and compare efficiencies, sort of like they do in LeetCode?
-
-**Link to work:** [Project Euler Problem #1](https://github.com/lecerick/project-euler/blob/main/problem1.py)
+Created a new repo for [Project Euler](https://projecteuler.net/archives) problems, and wrote a python script for Problem #1, which was straightforward. There's definitely more or less efficient ways to solve these challenges... I wonder if there's a package or function I can use to time the operations and compare efficiencies, sort of like they do in LeetCode? [Project Euler Problem #1](https://github.com/lecerick/project-euler/blob/main/problem1.py)
 
 ### Day 4: September 2, 2021
 
-**Today's Progress**: [Problem #2](https://github.com/lecerick/project-euler/blob/main/problem2.py) solved, but only by brute force.
+[PE Problem #2](https://github.com/lecerick/project-euler/blob/main/problem2.py) solved, but only by brute force.
 
 ### Day 5: September 3, 2021
 
-**Today's Progress**: Created some dummy data / tables and did my first [SQL join](https://github.com/lecerick/finance-playground/blob/main/joins.sql).
+Created some dummy data / tables and did my first [SQL join](https://github.com/lecerick/finance-playground/blob/main/joins.sql).
 
 ### Day 6-7: September 4-5, 2021
 
-**Today's Progress**: Started playing around with the [pyglet](https://github.com/pyglet/pyglet) python package, their [starting guide](https://pyglet.readthedocs.io/en/latest/programming_guide/quickstart.html) in the documentation. Not hosting this as a repository in github though since I'm just playing around with it for fun on the long Labor Day weekend.
+Started playing around with the [pyglet](https://github.com/pyglet/pyglet) python package, their [starting guide](https://pyglet.readthedocs.io/en/latest/programming_guide/quickstart.html) in the documentation. Not hosting this as a repository in github though since I'm just playing around with it for fun on the long Labor Day weekend.
 
 ### Day 8: September 6, 2021
 
-**Today's Progress**: [Problem #3](https://github.com/lecerick/project-euler/blob/main/problem3.py) solved
-**Thoughts:** Today's problem was to find the largest prime factor of a relatively big number. This is the first PE problem where I ran into run time issues with my original implementation (which worked on the smaller number just fine). So I had to come up with a more elegant approach out of necessity. 
+[PE Problem #3](https://github.com/lecerick/project-euler/blob/main/problem3.py) solved. Today's problem was to find the largest prime factor of a relatively big number. This is the first PE problem where I ran into run time issues with my original implementation (which worked on the smaller number just fine). So I had to come up with a more elegant approach out of necessity. 
