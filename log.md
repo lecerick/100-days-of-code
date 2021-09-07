@@ -1,4 +1,4 @@
-# 100 Days Of Code - Log
+# 100 Days Of Code - Lecerick's Log
 
 ### Day 0: Sun Aug 29, 2021
 
