@@ -32,3 +32,7 @@ Started playing around with the [pyglet](https://github.com/pyglet/pyglet) pytho
 ### Day 8: Mon Sept 6, 2021
 
 [PE Problem #3](https://github.com/lecerick/project-euler/blob/main/problem003.py) solved. Today's problem was to find the largest prime factor of a relatively big number. This is the first PE problem where I ran into run time issues with my original implementation (which worked on the smaller number just fine). So I had to come up with a more elegant approach out of necessity. 
+
+### Day 9: Tues Sept 7, 2021
+
+[PE Problem #4](https://github.com/lecerick/project-euler/blob/main/problem004.py) solved. This problem has to do with Palindrome numbers. At first, I tried to use modular arithmetic and divisors to determine the value of the various digits, but realized it would be easier to use strings and substring logic. Just because it's a math problem doesn't mean strings can't be handy!
