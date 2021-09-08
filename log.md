@@ -15,11 +15,11 @@ Forked the #100-Days-Of-Code repo. Logging my progress could be helpful, especia
 
 ### Day 3: Wed Sept 1, 2021
 
-Created a new repo for [Project Euler](https://projecteuler.net/archives) problems, and wrote a python script for [PE Problem #1](https://github.com/lecerick/project-euler/blob/main/problem001.py), which was straightforward. There's definitely more or less efficient ways to solve these challenges... I wonder if there's a package or function I can use to time the operations and compare efficiencies, sort of like they do in LeetCode? 
+Created a new repo called [math-playground](https://github.com/lecerick/math-playground/), with a subfolder for [Project Euler](https://projecteuler.net/archives) problems. Solved [PE Problem #1](https://github.com/lecerick/math-playground/blob/main/PE/problem001.py) using a python script, which was straightforward. There's definitely more or less efficient ways to solve these challenges... I wonder if there's a package or function I can use to time the operations and compare efficiencies, sort of like they do in LeetCode? 
 
 ### Day 4: Thurs Sept 2, 2021
 
-[PE Problem #2](https://github.com/lecerick/project-euler/blob/main/problem002.py) solved, but only by brute force.
+[PE Problem #2](https://github.com/lecerick/math-playground/blob/main/PE/problem002.py) solved, but only by brute force.
 
 ### Day 5: Fri Sept 3, 2021
 
@@ -31,8 +31,12 @@ Started playing around with the [pyglet](https://github.com/pyglet/pyglet) pytho
 
 ### Day 8: Mon Sept 6, 2021
 
-[PE Problem #3](https://github.com/lecerick/project-euler/blob/main/problem003.py) solved. Today's problem was to find the largest prime factor of a relatively big number. This is the first PE problem where I ran into run time issues with my original implementation (which worked on the smaller number just fine). So I had to come up with a more elegant approach out of necessity. 
+[PE Problem #3](https://github.com/lecerick/math-playground/blob/main/PE/problem003.py) solved. Today's problem was to find the largest prime factor of a relatively big number. This is the first PE problem where I ran into run time issues with my original implementation (which worked on the smaller number just fine). So I had to come up with a more elegant approach out of necessity. 
 
 ### Day 9: Tues Sept 7, 2021
 
-[PE Problem #4](https://github.com/lecerick/project-euler/blob/main/problem004.py) solved. This problem has to do with Palindrome numbers. At first, I tried to use modular arithmetic and divisors to determine the value of the various digits, but realized it would be easier to use strings and substring logic. Just because it's a math problem doesn't mean strings can't be handy!
+[PE Problem #4](https://github.com/lecerick/math-playground/blob/main/PE/problem004.py) solved. This problem has to do with Palindrome numbers. At first, I tried to use modular arithmetic and divisors to determine the value of the various digits, but realized it would be easier to use strings and substring logic. Just because it's a math problem doesn't mean strings can't be handy!
+
+### Day 10: Wed Sept 8, 2021
+
+[PE Problem #5](https://github.com/lecerick/math-playground/blob/main/PE/problem005.py) solved. 
