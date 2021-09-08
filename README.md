@@ -2,7 +2,7 @@
 
 ## Contents
 
-*🔵 [MY LOG - click here to see my progress](log.md)
+🔵 [MY LOG - click here to see my progress](log.md)
 * [Rules](rules.md)
 * [FAQ](FAQ.md)
 * [Resources](resources.md)
