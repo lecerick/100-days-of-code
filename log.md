@@ -57,5 +57,68 @@ CLEVER METHOD
 To my horror, I notice that the answers no longer match between BRUTE FORCE and CLEVER methods. How? Why?
 At first, my thought was that the brute force method was the wrong answer, since it appeared to be rounded. But upon googling, I found that Python 3 does not have any sort of cap on how large integers can get. I also ran the lower powers of 10, and the brute force answer for 10 ** 7 looked more consistent with those answers. So... the clever method? Could it be? More googling. The docs point to [Floating Point Arithmetic: Issues and Limitations](https://docs.python.org/3/tutorial/floatingpoint.html), which makes a lot of sense, since the clever method involves division and hence operations on float data types. The clever method is WAY quicker, but it's also inaccurate for large N. 
 
-So my challenge to myself is this: maybe there's another option... a method that scales nearly as well as the clever method, but has the guaranteed accuracy of the brute force function.
-At this point, I'm going to be late for work, so we'll pick up on that question later. :)
+So my challenge to myself is this: maybe there's another option... a method that scales nearly as well as the clever method, but has the guaranteed accuracy of the brute force function. At this point, I'm going to be late for work, so we'll pick up on that question later. :)
+
+Ok, got home from work and figured it out. Created a new function "cleverer" that fixed it by not using floats at all (since they're not actually necessary for this problem, it's just what Python was using since I had division involved.) I just swapped from the / operator to // so the outcome is an int (which it would be anyway, it's a sum/square of ints). 
+
+Looking at the outcome over powers of 10, you can see the difference in the two methods. Brute force is O(n) and Clever is O(1), i.e. constant.
+
+I tried to run the brute force method on 10 ** 10 and stopped it after an hour of run time. 
+
+It's really cool to see Big O in my own little experiment :)
+
+```
+N = 10 ** 1
+BRUTE FORCE METHOD:  2640
+BRUTE FORCE RUNTIME: 0:00:00.000188
+CLEVER METHOD:       2640
+CLEVER RUNTIME:      0:00:00.000095
+---------------------------------------------------------------------------
+N = 10 ** 2
+BRUTE FORCE METHOD:  25164150
+BRUTE FORCE RUNTIME: 0:00:00.000108
+CLEVER METHOD:       25164150
+CLEVER RUNTIME:      0:00:00.000061
+---------------------------------------------------------------------------
+N = 10 ** 3
+BRUTE FORCE METHOD:  250166416500
+BRUTE FORCE RUNTIME: 0:00:00.000313
+CLEVER METHOD:       250166416500
+CLEVER RUNTIME:      0:00:00.000062
+---------------------------------------------------------------------------
+N = 10 ** 4
+BRUTE FORCE METHOD:  2500166641665000
+BRUTE FORCE RUNTIME: 0:00:00.002393
+CLEVER METHOD:       2500166641665000
+CLEVER RUNTIME:      0:00:00.000092
+---------------------------------------------------------------------------
+N = 10 ** 5
+BRUTE FORCE METHOD:  25000166664166650000
+BRUTE FORCE RUNTIME: 0:00:00.023343
+CLEVER METHOD:       25000166664166650000
+CLEVER RUNTIME:      0:00:00.000088
+---------------------------------------------------------------------------
+N = 10 ** 6
+BRUTE FORCE METHOD:  250000166666416666500000
+BRUTE FORCE RUNTIME: 0:00:00.227982
+CLEVER METHOD:       250000166666416666500000
+CLEVER RUNTIME:      0:00:00.000098
+---------------------------------------------------------------------------
+N = 10 ** 7
+BRUTE FORCE METHOD:  2500000166666641666665000000
+BRUTE FORCE RUNTIME: 0:00:02.141993
+CLEVER METHOD:       2500000166666641666665000000
+CLEVER RUNTIME:      0:00:00.000079
+---------------------------------------------------------------------------
+N = 10 ** 8
+BRUTE FORCE METHOD:  25000000166666664166666650000000
+BRUTE FORCE RUNTIME: 0:00:20.984449
+CLEVER METHOD:       25000000166666664166666650000000
+CLEVER RUNTIME:      0:00:00.000075
+---------------------------------------------------------------------------
+N = 10 ** 9
+BRUTE FORCE METHOD:  250000000166666666416666666500000000
+BRUTE FORCE RUNTIME: 0:03:30.901138
+CLEVER METHOD:       250000000166666666416666666500000000
+CLEVER RUNTIME:      0:00:00.000083
+```
