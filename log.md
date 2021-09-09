@@ -43,7 +43,7 @@ Started playing around with the [pyglet](https://github.com/pyglet/pyglet) pytho
 
 ### Day 11: Thurs Sept 9, 2021
 
-[PE Problem #6](https://github.com/lecerick/math-playground/blob/main/PE/problem006.py) solved. This one was very easy. Since I had extra time, I timed the run time difference of two methods (brute force vs. clever) when finding the value for the first 10 million natural numbers. 
+[PE Problem #6](https://github.com/lecerick/math-playground/blob/main/PE/problem006.py) solved. This one was very easy. Since I had extra time, I found a library that will time the run time difference of two methods, and chose the first 10 million natural numbers as a big enough experiment to observe a scaling difference. The console output follows:
 ```
 BRUTE FORCE METHOD
 2500000166666641666665000000
@@ -54,4 +54,6 @@ CLEVER METHOD
 2500000166666641498542440448
 0:00:00.000087
 ```
-The weird part is... for large N, the brute force and clever answer no longer matches. On inspection, it looks like the brute force method has some sort of accuracy issue, as it appears to have been rounded at some point. I'm not sure why this would happen considering every intermediate number in this calculation is an integer, and python 3 is supposed to have no maximum value of an integer. So what's going on? There's something in how python is handling the math that I want to understand.
+To my horror, I notice that the answers no longer match between BRUTE FORCE and CLEVER methods. How? Why?
+At first, my thought was that the brute force method was the wrong answer, since it appeared to be rounded. But upon googling, I found that Python 3 does not have any sort of cap on how large integers can get. I also ran the lower powers of 10, and the brute force answer for 10 ** 7 looked more consistent with those answers. So... the clever method? Could it be? More googling. The docs point to [Floating Point Arithmetic: Issues and Limitations](https://docs.python.org/3/tutorial/floatingpoint.html), which makes a lot of sense, since the clever method involves division. It seems this is an issue with the math I'm doing on floats. The clever method is WAY quicker, but it's also inaccurate for large N. So maybe there's another way... a method that scales nearly as well as the clever method, but has the guaranteed accuracy of the brute force function.
+At this point, I'm going to be late for work, so we'll pick up on that question later. :)
