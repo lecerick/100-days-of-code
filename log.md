@@ -40,3 +40,7 @@ Started playing around with the [pyglet](https://github.com/pyglet/pyglet) pytho
 ### Day 10: Wed Sept 8, 2021
 
 [PE Problem #5](https://github.com/lecerick/math-playground/blob/main/PE/problem005.py) solved. 
+
+### Day 11: Thurs Sept 9, 2021
+
+[PE Problem #6](https://github.com/lecerick/math-playground/blob/main/PE/problem006.py) solved. This one was very easy.
