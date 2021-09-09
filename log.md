@@ -23,7 +23,7 @@ Created a new repo called [math-playground](https://github.com/lecerick/math-pla
 
 ### Day 5: Fri Sept 3, 2021
 
-Created some dummy data / tables and did my first [SQL join](https://github.com/lecerick/finance-playground/blob/main/joins.sql).
+Created some dummy data / tables and did a [SQL join](https://github.com/lecerick/finance-playground/blob/main/joins.sql).
 
 ### Days 6-7: Sat-Sun Sept 4-5, 2021
 
