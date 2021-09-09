@@ -45,11 +45,11 @@ Started playing around with the [pyglet](https://github.com/pyglet/pyglet) pytho
 
 [PE Problem #6](https://github.com/lecerick/math-playground/blob/main/PE/problem006.py) solved. This one was very easy. Since I had extra time, I timed the run time difference of two methods (brute force vs. clever) when finding the value for the first 10 million natural numbers. 
 ```
-$ BRUTE FORCE METHOD
-$ 2500000166666641666665000000
-$ 0:00:02.145663
-$ ---------------
-$ CLEVER METHOD
-$ 2500000166666641498542440448
-$ 0:00:00.000087
+BRUTE FORCE METHOD
+2500000166666641666665000000
+0:00:02.145663
+```
+CLEVER METHOD
+2500000166666641498542440448
+0:00:00.000087
 ```
