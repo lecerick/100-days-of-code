@@ -54,3 +54,4 @@ CLEVER METHOD
 2500000166666641498542440448
 0:00:00.000087
 ```
+The weird part is... for large N, the brute force and clever answer no longer matches. On inspection, it looks like the brute force method has some sort of accuracy issue, as it appears to have been rounded at some point. I'm not sure why this would happen considering every intermediate number in this calculation is an integer, and python 3 is supposed to have no maximum value of an integer. So what's going on? There's something in how python is handling the math that I want to understand.
