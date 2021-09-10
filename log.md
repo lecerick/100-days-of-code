@@ -122,3 +122,7 @@ BRUTE FORCE RUNTIME: 0:03:30.901138
 CLEVER METHOD:       250000000166666666416666666500000000
 CLEVER RUNTIME:      0:00:00.000083
 ```
+
+### Day 12: Fri Sept 10, 2021
+
+PE Problems [#7](https://github.com/lecerick/math-playground/blob/main/PE/problem007.py) and [#8](https://github.com/lecerick/math-playground/blob/main/PE/problem008.py) solved.
