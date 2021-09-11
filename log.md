@@ -126,3 +126,8 @@ CLEVER RUNTIME:      0:00:00.000083
 ### Day 12: Fri Sept 10, 2021
 
 PE Problems [#7](https://github.com/lecerick/math-playground/blob/main/PE/problem007.py) and [#8](https://github.com/lecerick/math-playground/blob/main/PE/problem008.py) solved.
+
+
+### Day 13: Sat Sept 11, 2021
+
+[PE Problem #9](https://github.com/lecerick/math-playground/blob/main/PE/problem009.py) solved.
