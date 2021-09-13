@@ -131,3 +131,8 @@ PE Problems [#7](https://github.com/lecerick/math-playground/blob/main/PE/proble
 ### Day 13: Sat Sept 11, 2021
 
 [PE Problem #9](https://github.com/lecerick/math-playground/blob/main/PE/problem009.py) solved.
+
+### Day 14: Mon Sept 13, 2021
+
+I had to work over the weekend, and between that and family stuff I didn't get any coding in yesterday. :(
+Today I sovled [PE Problem #10](https://github.com/lecerick/math-playground/blob/main/PE/problem010.py). It took over a minute of run time (maybe 5 min? I didn't time it), which indicates there's a clever solution I haven't thought of yet. May come back to this one.
