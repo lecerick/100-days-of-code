@@ -137,3 +137,9 @@ PE Problems [#7](https://github.com/lecerick/math-playground/blob/main/PE/proble
 I had to work over the weekend, and between that and family stuff I didn't get any coding in yesterday. :(
 
 Today I solved [PE Problem #10](https://github.com/lecerick/math-playground/blob/main/PE/problem010.py). It took over a minute of run time (maybe 5 min? I didn't time it), which indicates there's a clever solution I haven't thought of yet. May come back to this one.
+
+### Day 15: Wed Sept 15, 2021
+
+Unfortunately I missed yesterday too. Been putting so much energy into work recently, since we have a high prio project ongoing. Had a very weird day yesterday anyway, was super tired and lethargic, which of course is nothing to feel bad we're all squishy creatures that sometimes need to rest. Everyone has off days. I am going to start taking my vitamin D supplement again since that always seems to help (might be placebo? Idk, most people who spend time programming could probably use a vit D supplement haha).
+
+Today I solved [PE Problem #11](https://github.com/lecerick/math-playground/blob/main/PE/problem011.py). It's a pretty wordy solution that could definitely be made into fewer lines of code, but hey - it works. 
