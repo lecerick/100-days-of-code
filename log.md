@@ -61,11 +61,7 @@ So my challenge to myself is this: maybe there's another option... a method that
 
 Ok, got home from work and figured it out. Created a new function "cleverer" that fixed it by not using floats at all (since they're not actually necessary for this problem, it's just what Python was using since I had division involved.) I just swapped from the / operator to // so the outcome is an int (which it would be anyway, it's a sum/square of ints). 
 
-Looking at the outcome over powers of 10, you can see the difference in the two methods. Brute force is O(n) and Clever is O(1), i.e. constant.
-
-I tried to run the brute force method on 10 ** 10 and stopped it after an hour of run time. 
-
-It's really cool to see Big O in my own little experiment :)
+Looking at the outcome over powers of 10, you can see the difference in the two methods. Brute force is O(n) and Clever is O(1), i.e. constant. I tried to run the brute force method on 10 ** 10 and stopped it after an hour of run time. It's really cool to see Big O in my own little experiment :)
 
 ```
 N = 10 ** 1
@@ -140,6 +136,8 @@ Today I solved [PE Problem #10](https://github.com/lecerick/math-playground/blob
 
 ### Day 15: Wed Sept 15, 2021
 
-Unfortunately I missed yesterday too. Been putting so much energy into work recently, since we have a high prio project ongoing. Had a very weird day yesterday anyway, was super tired and lethargic, which of course is nothing to feel bad we're all squishy creatures that sometimes need to rest. Everyone has off days. I am going to start taking my vitamin D supplement again since that always seems to help (might be placebo? Idk, most people who spend time programming could probably use a vit D supplement haha).
+Unfortunately I missed yesterday too. Been putting so much energy into work recently, since we have a high prio project ongoing. Had a very weird day yesterday anyway, was super tired and lethargic, which of course is nothing to feel bad about; we're all squishy creatures that sometimes need to rest. Everyone has off days. I am going to start taking my vitamin D supplement again since that always seems to help (might be placebo? Idk, most people who spend time programming could probably use a vit D supplement haha).
 
 Today I solved [PE Problem #11](https://github.com/lecerick/math-playground/blob/main/PE/problem011.py). It's a pretty wordy solution that could definitely be made into fewer lines of code, but hey - it works. 
+
+Over the past week(s) I've really gravitated to the project euler problems, I think because they are so easy to get started on and only take the small amount of time I have in the mornings before work. Despite being relatively straightforward challenges, these problems have been quite effective at forcing familiarization with basic syntax and tools of Python. Thus far, the primary topics have been lists (lists of lists!), strings and substring logic, for and while loops, and data types. I have not had to interface with any other data structures (hashmaps, queues, stacks, trees), but I'd like to. Algorithms (e.g. searching and sorting methods) would be a natural next step after that.
