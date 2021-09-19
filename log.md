@@ -144,8 +144,8 @@ Over the past week(s) I've really gravitated to the project euler problems, I th
 
 ### Day 16: Thurs Sept 16, 2021
 
-Working on [PE Problem #12](https://github.com/lecerick/math-playground/blob/main/PE/p012_highly_divisible_triangular_number.py), having run time issues. There's definitely a more efficient way to find factors...
+Working on [PE Problem #12](https://github.com/lecerick/math-playground/blob/main/PE/p012_highly_divisible_triangular_number.py), having run time issues. There's definitely a more efficient way to find the number of divisors...
 
 ### Day 17: Sun Sept 19, 2021
 
-Finally created an efficient solution to [PE Problem #12](https://github.com/lecerick/math-playground/blob/main/PE/p012_highly_divisible_triangular_number.py)! I used the function from PE # 3 that finds a prime divisor of any number to create a method that generates the prime factorization of any number. Based on the prime factorization, it's very efficient (formulaic even) to find the number of divisors. In order to call a function in another python file, I realized that the file name couldn't start with a number, which conflicted with my prior naming convention. Hence, I changed the files of all of my PE problems from 00X_problem_title.py to p00X_problem_title.py. I'm proud of my solution this problem; it was hard won.
+Finally created an efficient solution to [PE Problem #12](https://github.com/lecerick/math-playground/blob/main/PE/p012_highly_divisible_triangular_number.py)! I used a function from PE #3 that finds a prime divisor of N, in order to create a method that finds the prime factorization of N. Based on the prime factorization, it's very efficient (formulaic even) to find the number of divisors of N. One small bump in the road -- in order to call a function in another python file, I realized that the file name couldn't start with a number, which conflicted with my prior naming convention. Hence, I changed the files of all of my PE problems from 00X_problem_title.py to p00X_problem_title.py. I'm proud of my solution this problem; it was hard won.
