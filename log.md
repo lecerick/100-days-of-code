@@ -15,11 +15,11 @@ Forked the #100-Days-Of-Code repo. Logging my progress could be helpful, especia
 
 ### Day 3: Wed Sept 1, 2021
 
-Created a new repo called [math-playground](https://github.com/lecerick/math-playground/), with a subfolder for [Project Euler](https://projecteuler.net/archives) problems. Solved [PE Problem #1](https://github.com/lecerick/math-playground/blob/main/PE/001_multiples_of_3_or_5.py) using a python script, which was straightforward. There's definitely more or less efficient ways to solve these challenges... I wonder if there's a package or function I can use to time the operations and compare efficiencies, sort of like they do in LeetCode? 
+Created a new repo called [math-playground](https://github.com/lecerick/math-playground/), with a subfolder for [Project Euler](https://projecteuler.net/archives) problems. Solved [PE Problem #1](https://github.com/lecerick/math-playground/blob/main/PE/p001_multiples_of_3_or_5.py) using a python script, which was straightforward. There's definitely more or less efficient ways to solve these challenges... I wonder if there's a package or function I can use to time the operations and compare efficiencies, sort of like they do in LeetCode? 
 
 ### Day 4: Thurs Sept 2, 2021
 
-[PE Problem #2](https://github.com/lecerick/math-playground/blob/main/PE/002_even_fibonacci_numbers.py) solved, but only by brute force.
+[PE Problem #2](https://github.com/lecerick/math-playground/blob/main/PE/p002_even_fibonacci_numbers.py) solved, but only by brute force.
 
 ### Day 5: Fri Sept 3, 2021
 
@@ -31,19 +31,19 @@ Started playing around with the [pyglet](https://github.com/pyglet/pyglet) pytho
 
 ### Day 8: Mon Sept 6, 2021
 
-[PE Problem #3](https://github.com/lecerick/math-playground/blob/main/PE/003_largest_prime_factor.py) solved. Today's problem was to find the largest prime factor of a relatively big number. This is the first PE problem where I ran into run time issues with my original implementation (which worked on the smaller number just fine). So I had to come up with a more elegant approach out of necessity. 
+[PE Problem #3](https://github.com/lecerick/math-playground/blob/main/PE/p003_largest_prime_factor.py) solved. Today's problem was to find the largest prime factor of a relatively big number. This is the first PE problem where I ran into run time issues with my original implementation (which worked on the smaller number just fine). So I had to come up with a more elegant approach out of necessity. 
 
 ### Day 9: Tues Sept 7, 2021
 
-[PE Problem #4](https://github.com/lecerick/math-playground/blob/main/PE/004_largest_palindrome_product.py) solved. This problem has to do with Palindrome numbers. At first, I tried to use modular arithmetic and divisors to determine the value of the various digits, but realized it would be easier to use strings and substring logic. Just because it's a math problem doesn't mean strings can't be handy!
+[PE Problem #4](https://github.com/lecerick/math-playground/blob/main/PE/p004_largest_palindrome_product.py) solved. This problem has to do with Palindrome numbers. At first, I tried to use modular arithmetic and divisors to determine the value of the various digits, but realized it would be easier to use strings and substring logic. Just because it's a math problem doesn't mean strings can't be handy!
 
 ### Day 10: Wed Sept 8, 2021
 
-[PE Problem #5](https://github.com/lecerick/math-playground/blob/main/PE/005_smallest_multiple.py) solved. 
+[PE Problem #5](https://github.com/lecerick/math-playground/blob/main/PE/p005_smallest_multiple.py) solved. 
 
 ### Day 11: Thurs Sept 9, 2021
 
-[PE Problem #6](https://github.com/lecerick/math-playground/blob/main/PE/006_sum_square_difference.py) solved. This one was very easy. Since I had extra time, I found a library that will time the run time difference of two methods, and chose the first 10 million natural numbers as a big enough experiment to observe a scaling difference. The console output follows:
+[PE Problem #6](https://github.com/lecerick/math-playground/blob/main/PE/p006_sum_square_difference.py) solved. This one was very easy. Since I had extra time, I found a library that will time the run time difference of two methods, and chose the first 10 million natural numbers as a big enough experiment to observe a scaling difference. The console output follows:
 ```
 BRUTE FORCE METHOD
 2500000166666641666665000000
@@ -121,27 +121,31 @@ CLEVER RUNTIME:      0:00:00.000083
 
 ### Day 12: Fri Sept 10, 2021
 
-PE Problems [#7](https://github.com/lecerick/math-playground/blob/main/PE/007_10001st_prime.py) and [#8](https://github.com/lecerick/math-playground/blob/main/PE/008_largest_product_in_a_series.py) solved.
+PE Problems [#7](https://github.com/lecerick/math-playground/blob/main/PE/p007_10001st_prime.py) and [#8](https://github.com/lecerick/math-playground/blob/main/PE/p008_largest_product_in_a_series.py) solved.
 
 
 ### Day 13: Sat Sept 11, 2021
 
-[PE Problem #9](https://github.com/lecerick/math-playground/blob/main/PE/009_special_pythagorean_triplet.py) solved.
+[PE Problem #9](https://github.com/lecerick/math-playground/blob/main/PE/p009_special_pythagorean_triplet.py) solved.
 
 ### Day 14: Mon Sept 13, 2021
 
 I had to work over the weekend, and between that and family stuff I didn't get any coding in yesterday. :(
 
-Today I solved [PE Problem #10](https://github.com/lecerick/math-playground/blob/main/PE/010_summation_of_primes.py). It took over a minute of run time (maybe 5 min? I didn't time it), which indicates there's a clever solution I haven't thought of yet. May come back to this one.
+Today I solved [PE Problem #10](https://github.com/lecerick/math-playground/blob/main/PE/p010_summation_of_primes.py). It took over a minute of run time (maybe 5 min? I didn't time it), which indicates there's a clever solution I haven't thought of yet. May come back to this one.
 
 ### Day 15: Wed Sept 15, 2021
 
 Unfortunately I missed yesterday too. Been putting so much energy into work recently. Had a very weird day yesterday anyway, was super tired and lethargic, which of course is nothing to feel bad about; we're all squishy creatures that sometimes need to rest. Everyone has off days. I am going to start taking my vitamin D supplement again since that always seems to help (might be placebo? Idk, most people who spend time programming could probably use a vit D supplement haha).
 
-Today I solved [PE Problem #11](https://github.com/lecerick/math-playground/blob/main/PE/011_largest_product_in_a_grid.py). It's a pretty wordy solution that could definitely be made into fewer lines of code, but hey - it works. 
+Today I solved [PE Problem #11](https://github.com/lecerick/math-playground/blob/main/PE/p011_largest_product_in_a_grid.py). It's a pretty wordy solution that could definitely be made into fewer lines of code, but hey - it works. 
 
 Over the past week(s) I've really gravitated to the project euler problems, I think because they are so easy to get started on and only take the small amount of time I have in the mornings before work. Despite being relatively straightforward challenges, these problems have been quite effective at forcing familiarization with basic syntax and tools of Python. Thus far, the primary topics have been lists (lists of lists!), strings and substring logic, for and while loops, and data types. I have not had to interface with any other data structures (hashmaps, queues, stacks, trees), but I'd like to. Algorithms (e.g. searching and sorting methods) would be a natural next step after that.
 
 ### Day 16: Thurs Sept 16, 2021
 
-Working on [PE Problem #12](https://github.com/lecerick/math-playground/blob/main/PE/012_highly_divisible_triangular_number.py), having run time issues. There's definitely a more efficient way to find factors...
+Working on [PE Problem #12](https://github.com/lecerick/math-playground/blob/main/PE/p012_highly_divisible_triangular_number.py), having run time issues. There's definitely a more efficient way to find factors...
+
+### Day 17: Sun Sept 19, 2021
+
+Finally created an efficient solution to [PE Problem #12](https://github.com/lecerick/math-playground/blob/main/PE/p012_highly_divisible_triangular_number.py)! I used the function from PE # 3 that finds a prime divisor of any number to create a method that generates the prime factorization of any number. Based on the prime factorization, it's very efficient (formulaic even) to find the number of divisors. In order to call a function in another python file, I realized that the file name couldn't start with a number, which conflicted with my prior naming convention. Hence, I changed the files of all of my PE problems from 00X_problem_title.py to p00X_problem_title.py. I'm proud of my solution this problem; it was hard won.
