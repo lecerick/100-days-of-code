@@ -136,7 +136,7 @@ Today I solved [PE Problem #10](https://github.com/lecerick/math-playground/blob
 
 ### Day 15: Wed Sept 15, 2021
 
-Unfortunately I missed yesterday too. Been putting so much energy into work recently. Had a very weird day yesterday anyway, was super tired and lethargic, which of course is nothing to feel bad about; we're all squishy creatures that sometimes need to rest. Everyone has off days. I am going to start taking my vitamin D supplement again since that always seems to help (might be placebo? Idk, most people who spend time programming could probably use a vit D supplement haha).
+Unfortunately I missed yesterday too. Been putting so much energy into work recently. Had a very weird day yesterday anyway, was super tired and lethargic.
 
 Today I solved [PE Problem #11](https://github.com/lecerick/math-playground/blob/main/PE/p011_largest_product_in_a_grid.py). It's a pretty wordy solution that could definitely be made into fewer lines of code, but hey - it works. 
 
@@ -148,4 +148,4 @@ Working on [PE Problem #12](https://github.com/lecerick/math-playground/blob/mai
 
 ### Day 17: Sun Sept 19, 2021
 
-Finally created an efficient solution to [PE Problem #12](https://github.com/lecerick/math-playground/blob/main/PE/p012_highly_divisible_triangular_number.py)! I used a function from PE #3 that finds a prime divisor of N, in order to create a method that finds the prime factorization of N. Based on the prime factorization, it's very efficient (formulaic even) to find the number of divisors of N. One small bump in the road -- in order to call a function in another python file, I realized that the file name couldn't start with a number, which conflicted with my prior naming convention. Hence, I changed the files of all of my PE problems from 00X_problem_title.py to p00X_problem_title.py. I'm proud of my solution this problem; it was hard won.
+Finally created an efficient solution to [PE Problem #12](https://github.com/lecerick/math-playground/blob/main/PE/p012_highly_divisible_triangular_number.py)! I used a function from PE #3 that finds a prime divisor of N, in order to create a method that finds the prime factorization of N. Based on the prime factorization, it's very efficient (formulaic even) to find the number of divisors of N. An efficiency being used here is that I'm not actually finding all the divisors, just the divisor *count.* One small bump in the road that I learned from: in order to call a function in another python file, I realized that the file name couldn't start with a number, which conflicted with my prior naming convention. Hence, I changed the files of all of my PE problems from 00X_problem_title.py to p00X_problem_title.py. I'm proud of my solution this problem; it was hard won.
