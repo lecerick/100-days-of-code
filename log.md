@@ -151,3 +151,11 @@ Working on [PE Problem #12](https://github.com/lecerick/math-playground/blob/mai
 Finally created an efficient solution to [PE Problem #12](https://github.com/lecerick/math-playground/blob/main/PE/p012_highly_divisible_triangular_number.py)! I used a function from PE #3 that finds a prime divisor of N, in order to create a method that finds the prime factorization of N. Based on the prime factorization, it's very efficient (formulaic even) to find the number of divisors of N. An efficiency being used here is that I'm not actually finding all the divisors, just the divisor *count.* One small bump in the road that I learned from: in order to call a function in another python file, I realized that the file name couldn't start with a number, which conflicted with my prior naming convention. Hence, I changed the files of all of my PE problems from 00X_problem_title.py to p00X_problem_title.py. I'm proud of my solution this problem; it was hard won.
 
 Also (later in the day) solved [PE Problem #13](https://github.com/lecerick/math-playground/blob/main/PE/p013_large_sum.py). Had to revisit how to do I/O on a text file since the input was a bit unwieldy.
+
+### Day 18: Mon Sept 20, 2021
+
+Solved [PE Problem #14: Longest Collatz Sequence](https://github.com/lecerick/math-playground/blob/main/PEp014_longest_collatz_sequence.py).
+
+### Day 18: Tues Sept 21, 2021
+
+Updated personal website
