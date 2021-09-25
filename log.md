@@ -154,8 +154,20 @@ Also (later in the day) solved [PE Problem #13](https://github.com/lecerick/math
 
 ### Day 18: Mon Sept 20, 2021
 
-Solved [PE Problem #14: Longest Collatz Sequence](https://github.com/lecerick/math-playground/blob/main/PEp014_longest_collatz_sequence.py).
+Solved [PE Problem #14: Longest Collatz Sequence](https://github.com/lecerick/math-playground/blob/main/P/Ep014_longest_collatz_sequence.py).
 
-### Day 18: Tues Sept 21, 2021
+### Day 19: Tues Sept 21, 2021
 
 Updated personal website
+
+### Day 20: Wed Sept 22, 2021
+
+Solved PE Problem [#15: Lattice Paths](https://github.com/lecerick/math-playground/blob/main/PE/p015_lattice_paths.py) using Pascal's Triangle.
+
+### Day 21: Thurs Sept 23, 2021
+
+Solved PE Problem [#16: Power Digit Sum](https://github.com/lecerick/math-playground/blob/main/PE/p016_power_digit_sum.py).
+
+### Day 22: Fri Sept 24, 2021
+
+Solved PE Problem [#17: Number Letter Counts](https://github.com/lecerick/math-playground/blob/main/PE/p017_number_letter_counts.py).
