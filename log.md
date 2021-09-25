@@ -162,6 +162,8 @@ Updated personal website
 
 ### Day 20: Wed Sept 22, 2021
 
+Happy first day of fall!
+
 Solved PE Problem [#15: Lattice Paths](https://github.com/lecerick/math-playground/blob/main/PE/p015_lattice_paths.py) using Pascal's Triangle.
 
 ### Day 21: Thurs Sept 23, 2021
@@ -171,3 +173,26 @@ Solved PE Problem [#16: Power Digit Sum](https://github.com/lecerick/math-playgr
 ### Day 22: Fri Sept 24, 2021
 
 Solved PE Problem [#17: Number Letter Counts](https://github.com/lecerick/math-playground/blob/main/PE/p017_number_letter_counts.py).
+
+### Day 23: Sat Sept 25, 2021
+
+This is a pretty good guide to [IO in Python 3](https://stackabuse.com/read-a-file-line-by-line-in-python/).
+
+```
+def generateList(filepath: str):
+    nums = []
+    with open(filepath,'r') as fp:
+        # Read a new line & strip it of its endline character
+        line = fp.readline().strip()
+        while line:
+            # Start with a string (e.g. '4 6')
+            # Transform it into a list of strings (e.g. ['4', '6']) using line.split()
+            # Transform it into a list of integers (e.g. [4, 6]) using list(map())
+            line = list(map(int,line.split())) 
+            # Add the new line of numbers to nums
+            nums.append(line)
+            # Read new line. If it's empty, the loop will stop.
+            line = fp.readline().strip()
+    fp.close()
+    return nums
+```
