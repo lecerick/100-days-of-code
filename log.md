@@ -176,7 +176,7 @@ Solved PE Problem [#17: Number Letter Counts](https://github.com/lecerick/math-p
 
 ### Day 23: Sat Sept 25, 2021
 
-Tried PE#18 but got stuck, even on the brute force approach. The data for this problem literally looks like a tree (it's in the form of a triangle), but the only real data structures I'm familiar with are 'rectangular' if you will.
+Tried PE#18 but got stuck, even on the brute force approach. The data for this problem literally looks like a tree (it's in the form of a triangle), but the only real data structures I'm familiar with are 'rectangular' if you will. I really need to step back and study some data structures before I can hope to solve this one.
 
 I did learn some neat tricks for reading files. This is a helpful guide to [reading a file in Python 3](https://stackabuse.com/read-a-file-line-by-line-in-python/).
 
@@ -198,3 +198,22 @@ Another interesting function is the built-in **map** function, which uses a func
 ```
 
 I've never tried this, but supposedly the [map function](https://www.w3schools.com/python/ref_func_map.asp) can be even more powerful when paired with [lambda functions](https://www.w3schools.com/python/python_lambda.asp). 
+
+### Day 24: Sun Sept 26, 2021
+
+Since I couldn't figure out #18 yesterday, I went ahead and moved on to [PE Problem #19: Counting Sundays](https://github.com/lecerick/math-playground/blob/main/PE/p019_counting_sundays.py), which required me to build some calendar logic. I'm sure there's a python package that would easily have done this for me, but that's missing the point. I was able to solve it.
+
+A minor trick I learned today, that I'm sure will get a lot of use: formatting strings.
+- Use {} within a string paired with the .format() function to easily print variables along with descriptive text
+- You can left/right/center justify a string for easier readability, and to standardize formatting you can choose the 'padding' character (e.g. ' ' or '0')
+
+```
+>>> year = 2021
+>>> month = 9
+>>> day = 1
+>>> date = str(year).rjust(4,'0')+'/'+str(month).rjust(2,'0')+'/'+str(day).rjust(2,'0')
+>>> print(date)
+2021/09/01
+>>> print('The date is {}'.format(date))
+The date is 2021/09/01
+```
