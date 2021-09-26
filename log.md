@@ -176,17 +176,15 @@ Solved PE Problem [#17: Number Letter Counts](https://github.com/lecerick/math-p
 
 ### Day 23: Sat Sept 25, 2021
 
-This is a pretty good guide to [IO in Python 3](https://stackabuse.com/read-a-file-line-by-line-in-python/).
+Tried PE Problem 18 but got stuck, even on the brute force approach. The data for this problem literally looks like a tree (it's in the form of a triangle), but the only real data structures I'm familiar with are 'rectangular' if you will.
+
+I did learn some neat tricks for reading files. First is the built-in **split()** function, which takes a string and returns an array of the substrings that are separated by space, e.g.
 
 ```
-def generateList(filepath: str):
-    nums = []
-    with open(filepath,'r') as fp:
-        line = fp.readline().strip()
-        while line:
-            line = list(map(int,line.split())) 
-            nums.append(line)
-            line = fp.readline().strip()
-    fp.close()
-    return nums
+>>> s = 'Hi there, my name is Lena'
+>>> s.split()
+['Hi', 'there,', 'my', 'name', 'is', 'Lena']
 ```
+Another interesting function is the built-in **map** function.
+
+This is a helpful guide to [reading a file in Python 3](https://stackabuse.com/read-a-file-line-by-line-in-python/).
