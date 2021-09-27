@@ -205,7 +205,7 @@ Since I couldn't figure out #18 yesterday, I went ahead and moved on to [PE Prob
 
 A minor trick I learned today, that I'm sure will get a lot of use: formatting strings.
 - Use {} within a string paired with the .format() function to easily print variables along with descriptive text
-- You can left/right/center justify a string for easier readability, and to standardize formatting you can choose the 'padding' character (e.g. ' ' or '0')
+- You can [left/right/center justify](https://stackabuse.com/padding-strings-in-python/) a string for easier readability, and to standardize formatting you can choose the 'padding' character (e.g. ' ' or '0')
 
 ```
 >>> year = 2021
@@ -217,3 +217,11 @@ A minor trick I learned today, that I'm sure will get a lot of use: formatting s
 >>> print('The date is {}'.format(date))
 The date is 2021/09/01
 ```
+
+### Day 25: Mon Sept 27, 2021
+
+I can't believe September is almost past. It's almost time for Hacktober 🎃. The wind on my 6:30am walk had a chill, and leaves were scuttling across the pavement. When I started this challenge it was sweltering out. At the inception of the challenge, I don't think I fully conceptualized how long 100 days is. And yet, time is flying. Incremental improvements pile up when you're consistent. And this has been so fun so far!
+
+Took about 3 minutes to solve [PE Problem #20: Factorial Digit Sum](https://github.com/lecerick/math-playground/blob/main/PE/p020_factorial_digit_sum.py). Some of the "easy" PE problems are extremely easy, and some are much more challenging. The difficulty seems sort of inconsistent.
+
+I also created a *webdev-playground* repository so I can mess around with CSS art and various webdev topics. Having umbrella repositories where you can commit small learning projects without sweating the categorization is honestly so useful. My brain always wants to get caught up on the organization of anything I create, so intentionally designating certain repositories as "scratch paper" frees me to just learn.
