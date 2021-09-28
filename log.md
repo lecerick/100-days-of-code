@@ -229,6 +229,6 @@ I also created a *webdev-playground* repository so I can mess around with CSS ar
 Made a pumpkin :)
 ![image](https://user-images.githubusercontent.com/8887959/135008300-b50cfaed-75ac-4857-93ba-b428c2a9621e.png)
 
-### Day 25: Mon Sept 27, 2021
+### Day 26: Tues Sept 28, 2021
 
 Solved [PE Problem #21: Amicable Numbers](https://github.com/lecerick/math-playground/blob/main/PE/p021_amicable_numbers.py).  
