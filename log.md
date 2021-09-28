@@ -227,5 +227,6 @@ Took about 3 minutes to solve [PE Problem #20: Factorial Digit Sum](https://gith
 I also created a *webdev-playground* repository so I can mess around with CSS art and various webdev topics. Having umbrella repositories where you can commit small learning projects without sweating the categorization is honestly so useful. My brain always wants to get caught up on the organization of anything I create, so intentionally designating certain repositories as "scratch paper" frees me to just learn.
 
 Made a pumpkin :)
-![image](https://user-images.githubusercontent.com/8887959/135008232-21eeff59-90ef-40f5-bf21-1df53a06263c.png)
+![image](https://user-images.githubusercontent.com/8887959/135008300-b50cfaed-75ac-4857-93ba-b428c2a9621e.png)
+
 
