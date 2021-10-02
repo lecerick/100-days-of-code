@@ -232,3 +232,12 @@ Made a pumpkin :)
 ### Day 26: Tues Sept 28, 2021
 
 Solved [PE Problem #21: Amicable Numbers](https://github.com/lecerick/math-playground/blob/main/PE/p021_amicable_numbers.py).  
+
+### Day 27: Wed Sept 29, 2021
+
+Solved [PE Problem #22: Names Scores](https://github.com/lecerick/math-playground/blob/main/PE/p022_names_scores.py).  
+
+### Day2 28-30: Thurs Sept 30 - Sat Oct 2, 2021
+
+After three days of work, finally solved [PE Problem #23: Non-Abundant Sums](https://github.com/lecerick/math-playground/blob/main/PE/p023_nonabundant_sums.py).  Used a Set for the first time. Had my bf take a look at my code and he recommended I read up on [list comprehension in Python](https://www.w3schools.com/python/python_lists_comprehension.asp) as an alternative to defining lists with for loops and .append().
+
