@@ -248,3 +248,9 @@ Solved [PE Problem #24: Lexographic Permutations](https://github.com/lecerick/ma
 ### Day 32: Tues Oct 5, 2021
 
 Didn't code at all yesterday unfortunately. Today I solved [PE Problem #25: 1000 Digit Fibonacci Number](https://github.com/lecerick/math-playground/blob/main/PE/p024_1000_digit_fibonacci_number.py) by brute force, which was fast enough. I'm glad today's problem was quick, since I have to leave for work early. This week has been very stressful both in work and my personal life. Our AC isn't working 🥵.
+
+### Day 33: Friday Oct 8, 2021
+
+I have had a hard time keeping up with the coding challenge with everything going on in my life. We got a new furnace installed yesterday after a lot of headache getting quotes and dealing with HVAC companies. Work has been crazy busy & I've had to work longer hours than normal. I guess  life will ebb and flow, and you just do what you can with the time you have.
+
+Today I started PE Problem #26 but have not finished it. Committed what I had done since I have to leave for work. Life can be overwhelming sometimes.
