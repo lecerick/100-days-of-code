@@ -247,10 +247,22 @@ Solved [PE Problem #24: Lexographic Permutations](https://github.com/lecerick/ma
 
 ### Day 32: Tues Oct 5, 2021
 
-Didn't code at all yesterday unfortunately. Today I solved [PE Problem #25: 1000 Digit Fibonacci Number](https://github.com/lecerick/math-playground/blob/main/PE/p024_1000_digit_fibonacci_number.py) by brute force, which was fast enough. I'm glad today's problem was quick, since I have to leave for work early. This week has been very stressful both in work and my personal life. Our AC isn't working 🥵.
+Didn't code at all yesterday unfortunately. Today I solved [PE Problem #25: 1000 Digit Fibonacci Number](https://github.com/lecerick/math-playground/blob/main/PE/p025_1000_digit_fibonacci_number.py) by brute force, which was fast enough. I'm glad today's problem was quick, since I have to leave for work early. This week has been very stressful both in work and my personal life. Our AC isn't working 🥵.
 
 ### Day 33: Friday Oct 8, 2021
 
 I have had a hard time keeping up with the coding challenge with everything going on in my life. We got a new furnace installed yesterday after a lot of headache getting quotes and dealing with HVAC companies. Work has been crazy busy & I've had to work longer hours than normal. I guess  life will ebb and flow, and you just do what you can with the time you have.
 
 Today I started PE Problem #26 but have not finished it. Committed what I had done since I have to leave for work. Life can be overwhelming sometimes.
+
+### Day 34: Sunday Oct 10, 2021
+
+Finished [PE Problem #26: Reciprocal Cycles](https://github.com/lecerick/math-playground/blob/main/PE/p026_reciprocal_cycles.py).
+
+### Day 35: Monday Oct 11, 2021
+
+Started PE Problem #27: Quadratic Primes. Running into major run time issues. Mostly, I can't seem to generate a list of primes large enough to support the problem, given the time limits of the problem. I am taking the approach of pre-calculating a set of primes below a limit. One idea I have is to generate a set of non-primes to check, rather than checking divisibility of primes in a list. Gonna need more time to work on this one.
+
+I wish I had more time to code. It's hard to fit a full-time job (sometimes more than full-time), plus home ownership, plus various stressors (tornados in October??), plus relationships into a life and still have time to work on coding challenges. The desire is there, but I'm getting so tired. At least working on these PE problems is really fun, which is what keeps bringing me back.
+
+I have a vacation coming up soon...
