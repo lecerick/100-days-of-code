@@ -293,7 +293,6 @@ primeset = set({})
 for i in range(2,limit):
     if not any(i%p==0 for p in primeset):
         primeset.add(i)
-primeset = sorted(primeset)
 ```
 
 The second function is not only more concise, but should also be faster because of the set vs. list datatype, and because of set comprehension. Cool, right?
