@@ -275,13 +275,17 @@ A couple things I've learned today:
 
 As an example, here was my function for finding all primes below a certain limit, before:
 ```
-primeset = set({})
+primes = []
 i = 2
 while i < limit:
-    if not any(i%p==0 for p in primeset):
-        primeset.add(i)
+    i_has_divisor = False
+    for j in range(0,len(primes)):
+        if i % primes[j] == 0:
+            i_has_divisor = True
+            break
+    if i_has_divisor==False:
+            primes.append(i)
     i+=1
-primeset = sorted(primeset)
 ```
 And here's after:
 ```
