@@ -266,3 +266,32 @@ Started PE Problem #27: Quadratic Primes. Running into major run time issues. Mo
 I wish I had more time to code. It's hard to fit a full-time job (sometimes more than full-time), plus home ownership, plus various stressors (tornados in October??), plus relationships into a life and still have time to work on coding challenges. The desire is there, but I'm getting so tired. At least working on these PE problems is really fun, which is what keeps bringing me back.
 
 I have a vacation coming up soon...
+
+### Day 36: Tuesday Oct 12, 2021
+
+A couple things I've learned today:
+- You can iterate through all the elements of a set. You just can't refer to elements by index. This means that you can perform set comprehension!
+- The built-in functions any() and all() are very powerful when paired with list/set comprehension.
+
+As an example, here was my function for finding all primes below a certain limit, before:
+```
+primeset = set({})
+i = 2
+while i < limit:
+    if not any(i%p==0 for p in primeset):
+        primeset.add(i)
+    i+=1
+primeset = sorted(primeset)
+```
+And here's after:
+```
+primeset = set({})
+i = 2
+while i < limit:
+    if not any(i%p==0 for p in primeset):
+        primeset.add(i)
+    i+=1
+primeset = sorted(primeset)
+```
+
+The second function is not only more concise, but should also be faster because of the set vs. list datatype, and because of set comprehension. Cool, right?
