@@ -290,7 +290,7 @@ while i < limit:
 And here's after:
 ```
 primeset = set({})
-for i in range(2,limit+1):
+for i in range(2,limit):
     if not any(i%p==0 for p in primeset):
         primeset.add(i)
 primeset = sorted(primeset)
