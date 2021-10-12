@@ -290,12 +290,12 @@ while i < limit:
 And here's after:
 ```
 primeset = set({})
-i = 2
-while i < limit:
+for i in range(2,limit+1):
     if not any(i%p==0 for p in primeset):
         primeset.add(i)
-    i+=1
 primeset = sorted(primeset)
 ```
 
 The second function is not only more concise, but should also be faster because of the set vs. list datatype, and because of set comprehension. Cool, right?
+
+Still haven't solved Problem 27 (Quadratic Primes), but very happy to have learned the above.
