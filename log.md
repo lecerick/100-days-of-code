@@ -326,5 +326,11 @@ METHOD1: 37550402023  0:02:14.070543
 METHOD2: 37550402023  0:03:41.890905 
 METHOD3: 37550402025  0:02:11.988714 
 ```
+Clearly METHOD3 is the fastest, but almost imperceptably. I guess sets aren't that much better than lists? And why the set comprehension is so much slower, I really can't say. Something in the guts of that line of code is computationally less efficient. I'm constantly struggling to be efficient without knowing what's going on "under the hood" with these built-in data types and functions. Probably a lot of beginners feel this way. You have to understand what the program is doing in the underlying source code to get a feel for efficiency, and I'm sure that comes with experience and study.
 
+```
+if not any(i%p==0 for p in primeset):
+```
+In general this problem is definitely at least O(n) because it cycles through every number under the threshold of n. It also, for each number, checks the entire list of primes for divisibility. So this is more than O(n), maybe O(n ** 2), but given that the list of primes has much fewer elements than n, I'm not sure how appropriate O(n ** 2) is. It's somewhere in between. Not exactly O(n * log(n)) but maybe that's a decent approximation.
 
+Is there a way to do better? 
