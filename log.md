@@ -306,8 +306,25 @@ Woke this morning at 5:10am to my iPhone blaring a sound I've never heard. It's 
 
 Oklahoma, man.
 
-So anyway, I'm now up early. So after watching some more news on the couch and seeing the reports of the relatively minor wreckage in the core  (mostly tree damage), it's time to make coffee and head to my computer for my daily coding.
+So anyway, I'm now up early. After watching some more news on the couch and seeing the reports of the relatively minor wreckage in the core  (mostly tree damage), it's time to make coffee and head to my computer for my daily coding.
 
-It turns out I was lying yesterday when I said that new function was faster.
+It turns out I was lying yesterday when I said that new function was faster. It's not. It had been bothering me that my solution to  PE #10 (Summation of Primes) had not actually run fast enough to count as a proper solution despite yielding the correct answer. This new function theoretically should have speeded it up (according to what I've been told) but upon testing it, it's actually somewhat slower. Below you can see run times for METHOD1 (my original function), METHOD2 (the new "set comprehension" method), and METHOD3 (the original function, but using a set instead of a list).
+
+```
+10 ** 4
+METHOD1: 5736396  0:00:00.033023 
+METHOD2: 5736396  0:00:00.058397 
+METHOD3: 5736398  0:00:00.032492 
+---------------------------------------------------------------------------
+10 ** 5
+METHOD1: 454396537  0:00:02.050306 
+METHOD2: 454396537  0:00:03.460598 
+METHOD3: 454396539  0:00:02.020182 
+---------------------------------------------------------------------------
+10 ** 6
+METHOD1: 37550402023  0:02:14.070543 
+METHOD2: 37550402023  0:03:41.890905 
+METHOD3: 37550402025  0:02:11.988714 
+```
 
 
