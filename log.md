@@ -298,3 +298,16 @@ for i in range(2,limit):
 The second function is not only more concise, but should also be faster because of the set vs. list datatype, and because of set comprehension. Cool, right?
 
 Still haven't solved Problem 27 (Quadratic Primes), but very happy to have learned the above.
+
+
+### Day 37: Tuesday Oct 13, 2021
+
+Woke this morning at 5:10am to my iPhone blaring a sound I've never heard. It's a live tornado warning. The city sirens follow in quick step, an eerie foghorn sound reaching out to our house in the dark. Absolutely disoriented, I stumble to the living room, flip on the TV, and see reports of a nearby tornado headed directly towards my house. "Toward Penn Square, 5:18." Well, I think, this is an absolute disaster. Then I'm putting on my nearby hiking boots without any socks on. Scrambling to get a sip of water and head toward the interior closet. But the news is updating every second, and things have changed. The tornado, moving faster than I can, cycles directly East, not NorthEast to us. It's headed for downtown. It's over the fairgrounds. It's directly over our friend's house, the friend with a newborn and a toddler, who's sick from covid right now. God I hope they're alright. Now it's on the East side of town. The sirens are waning, dissipating, and I'm left standing in the living room in my pajamas and a pair of rugged boots, awake as hell and not going back to sleep any time soon. What a way to wake up. 
+
+Oklahoma, man.
+
+So anyway, I'm now up early. So after watching some more news on the couch and seeing the reports of the relatively minor wreckage in the core  (mostly tree damage), it's time to make coffee and head to my computer for my daily coding.
+
+It turns out I was lying yesterday when I said that new function was faster.
+
+
