@@ -300,13 +300,11 @@ The second function is not only more concise, but should also be faster because 
 Still haven't solved Problem 27 (Quadratic Primes), but very happy to have learned the above.
 
 
-### Day 37: Tuesday Oct 13, 2021
+### Day 37: Wednesday Oct 13, 2021
 
-Woke this morning at 5:10am to my iPhone blaring a sound I've never heard. It's a live tornado warning. The city sirens follow in quick step, an eerie foghorn sound reaching out to our house in the dark. Absolutely disoriented, I stumble to the living room, flip on the TV, and see reports of a nearby tornado headed directly towards my house. "Toward Penn Square, 5:18." Well, I think, this is an absolute disaster. Then I'm putting on my nearby hiking boots without any socks on. Scrambling to get a sip of water and head toward the interior closet. But the news is updating every second, and things have changed. The tornado, moving faster than I can, cycles directly East, not NorthEast to us. It's headed for downtown. It's over the fairgrounds. It's directly over our friend's house, the friend with a newborn and a toddler, who's sick from covid right now. God I hope they're alright. Now it's on the East side of town. The sirens are waning, dissipating, and I'm left standing in the living room in my pajamas and a pair of rugged boots, awake as hell and not going back to sleep any time soon. What a way to wake up. 
+Woke this morning at 5:10am to my iPhone blaring a sound I've never heard. It's a live tornado warning. The city sirens follow in quick step. Disoriented, I stumble to the living room, flip on the TV, and see reports of a nearby tornado headed directly towards my house. "Toward Penn Square, 5:18." Well, I think, this is an absolute disaster. But the news is updating every second. The tornado, moving fast, cycles directly East. It's headed for downtown. It's over the fairgrounds. It's directly over our friend's house. Now it's on the East side of town. The sirens are waning, dissipating. What a way to wake up. Oklahoma, man.
 
-Oklahoma, man.
-
-So anyway, I'm now up early. After watching some more news on the couch and seeing the reports of the relatively minor wreckage in the core  (mostly tree damage), it's time to make coffee and head to my computer for my daily coding.
+So anyway, I'm now up early. After watching some more news on the couch, it's time to make coffee and head to my computer for my daily coding.
 
 It turns out I was lying yesterday when I said that new function was faster. It's not. It had been bothering me that my solution to  PE #10 (Summation of Primes) had not actually run fast enough to count as a proper solution despite yielding the correct answer. This new function theoretically should have speeded it up (according to what I've been told) but upon testing it, it's actually somewhat slower. Below you can see run times for METHOD1 (my original function), METHOD2 (the new "set comprehension" method), and METHOD3 (the original function, but using a set instead of a list).
 
@@ -336,3 +334,9 @@ I'm constantly struggling to be efficient without knowing what's going on "under
 In general this problem is definitely at least O(n) because it cycles through every number under the threshold of n. It also, for each number, checks the entire list of primes for divisibility. So this is more than O(n), maybe O(n ** 2), but given that the list of primes has much fewer elements than n, I'm not sure how appropriate O(n ** 2) is. It's somewhere in between. Not exactly O(n * log(n)) but maybe that's a decent approximation.
 
 Is there a way to do better? 
+
+### Day 38: Thursday Oct 14, 2021
+
+New trick: the range() function in Python has an optional parameter I didn't know about, namely the 'step' input. The function is specified fully as range(start, stop, step). I had only ever used the first two parameters. So you can really easily count by 2's, by 3's, etc.
+
+Anyway, solved [PE #28: Number Spiral Diagonals](https://github.com/lecerick/math-playground/blob/main/PE/p028_number_spiral_diagonals.py).
