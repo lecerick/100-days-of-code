@@ -340,3 +340,6 @@ Is there a way to do better?
 New trick: the range() function in Python has an optional parameter I didn't know about, namely the 'step' input. The function is specified fully as range(start, stop, step). I had only ever used the first two parameters. So you can really easily count by 2's, by 3's, etc.
 
 Anyway, solved [PE #28: Number Spiral Diagonals](https://github.com/lecerick/math-playground/blob/main/PE/p028_number_spiral_diagonals.py).
+
+
+### Day 39: Friday Oct 15, 2021
