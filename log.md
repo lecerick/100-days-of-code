@@ -343,3 +343,42 @@ Anyway, solved [PE #28: Number Spiral Diagonals](https://github.com/lecerick/mat
 
 
 ### Day 39: Friday Oct 15, 2021
+
+Solved [PE #29: Distinct Powers](https://github.com/lecerick/math-playground/blob/main/PE/p029_distinct_powers.py) and [PE #30: Digit Fifth Powers](https://github.com/lecerick/math-playground/blob/main/PE/p030_digit_fifth_powers.py). Also finally solved the run time issue on [PE #10: Summation of Primes](https://github.com/lecerick/math-playground/blob/main/PE/p010_summation_of_primes.py)
+
+```
+def sumOfPrimes4(threshold):
+    sum = 0
+    not_prime = set({})
+    for n in range(2,threshold):
+        if n in not_prime:
+            pass
+        else:
+            sum+=n
+            for multiple in range(n*2,threshold,n):
+                not_prime.add(multiple)
+    return sum
+ ```
+ Compared to my other best time (METHOD3), this new method is substantially faster.
+ 
+ ```
+ METHOD3: 17  0:00:00.000003 
+METHOD4: 17  0:00:00.000004 
+---------------------------------------------------------------------------
+METHOD3: 1060  0:00:00.000024
+METHOD4: 1060  0:00:00.000026
+---------------------------------------------------------------------------
+METHOD3: 76127  0:00:00.000569
+METHOD4: 76127  0:00:00.000181
+---------------------------------------------------------------------------
+METHOD3: 5736396  0:00:00.033846 
+METHOD4: 5736396  0:00:00.001933 
+---------------------------------------------------------------------------
+METHOD3: 454396537  0:00:02.064577 
+METHOD4: 454396537  0:00:00.021381 
+---------------------------------------------------------------------------
+```
+
+### Day 39: Monday Oct 18, 2021
+
+Started on [PE #31: Coin Sums](https://github.com/lecerick/math-playground/blob/main/PE/p030_coin_sums.py) but haven't found a solution yet.
