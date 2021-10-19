@@ -382,3 +382,8 @@ METHOD4: 454396537  0:00:00.021381
 ### Day 39: Monday Oct 18, 2021
 
 Started on [PE #31: Coin Sums](https://github.com/lecerick/math-playground/blob/main/PE/p030_coin_sums.py) but haven't found a solution yet.
+
+
+### Day 40: Tuesday Oct 19, 2021
+
+Solved it
