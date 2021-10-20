@@ -387,3 +387,7 @@ Started on [PE #31: Coin Sums](https://github.com/lecerick/math-playground/blob/
 ### Day 40: Tuesday Oct 19, 2021
 
 Solved it
+
+### Day 41: Wednesday Oct 20, 2021
+
+Created my first pull request! [Open Drinks](https://github.com/alfg/opendrinks)
