@@ -390,8 +390,7 @@ Solved it
 
 ### Day 41: Wednesday Oct 20, 2021
 
-Created my first pull request! [Open Drinks](https://github.com/alfg/opendrinks)
-
+Created a Hacktoberfest pull request! [Open Drinks](https://github.com/alfg/opendrinks)
 
 ### Day 42: Friday Oct 22, 2021
 
@@ -408,3 +407,11 @@ Solved [PE #35: Circular Primes](https://github.com/lecerick/math-playground/blo
 ### Day 45: Sunday Oct 31, 2021
 
 Solved [PE #36: Double Base Palindromes](https://github.com/lecerick/math-playground/blob/main/PE/p036_double_base_palindromes.py)
+
+### Day 46: Monday Nov 1, 2021
+
+Some interesting things to come back to: 
+- [Google's Python Style Guide](https://google.github.io/styleguide/pyguide.html)
+- [W3 List of Built-in Python Functions](https://www.w3schools.com/python/python_ref_functions.asp)
+- [List of websites a programmer should visit](https://github.com/sdmg15/Best-websites-a-programmer-should-visit)
+- [Thinkful Webinar | UX/UI Design Vs. Web Development](https://www.meetup.com/KICK-OFF-A-CAREER-IN-TECH-THINKFUL-OKLAHOMA-CITY/events/281316537/?recEventId=281316537&recNumber=5&mu_notif_category=suggested_events)
