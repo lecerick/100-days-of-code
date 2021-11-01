@@ -410,6 +410,8 @@ Solved [PE #36: Double Base Palindromes](https://github.com/lecerick/math-playgr
 
 ### Day 46: Monday Nov 1, 2021
 
+Solved [PE #37: Truncatable Primes](https://github.com/lecerick/math-playground/blob/main/PE/p037_truncatable_primes.py)
+
 Some interesting things to come back to: 
 - [Google's Python Style Guide](https://google.github.io/styleguide/pyguide.html)
 - [W3 List of Built-in Python Functions](https://www.w3schools.com/python/python_ref_functions.asp)
