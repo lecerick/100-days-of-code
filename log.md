@@ -391,3 +391,20 @@ Solved it
 ### Day 41: Wednesday Oct 20, 2021
 
 Created my first pull request! [Open Drinks](https://github.com/alfg/opendrinks)
+
+
+### Day 42: Friday Oct 22, 2021
+
+Solved [PE #32: Pandigital Products](https://github.com/lecerick/math-playground/blob/main/PE/p032_pandigital_products.py) and [PE #33: Digit Cancelling Fractions](https://github.com/lecerick/math-playground/blob/main/PE/p033_digit_cancelling_fractions.py)
+
+### Day 43: Sunday Oct 24, 2021
+
+Solved [PE #34: Digit Factorials](https://github.com/lecerick/math-playground/blob/main/PE/p034_digit_factorials.py)
+
+### Day 44: Friday Oct 29, 2021
+
+Solved [PE #35: Circular Primes](https://github.com/lecerick/math-playground/blob/main/PE/p035_circular_primes.py)
+
+### Day 45: Sunday Oct 31, 2021
+
+Solved [PE #36: Double Base Palindromes](https://github.com/lecerick/math-playground/blob/main/PE/p036_double_base_palindromes.py)
