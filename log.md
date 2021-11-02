@@ -417,3 +417,6 @@ Some interesting things to come back to:
 - [W3 List of Built-in Python Functions](https://www.w3schools.com/python/python_ref_functions.asp)
 - [List of websites a programmer should visit](https://github.com/sdmg15/Best-websites-a-programmer-should-visit)
 - [Thinkful Webinar | UX/UI Design Vs. Web Development](https://www.meetup.com/KICK-OFF-A-CAREER-IN-TECH-THINKFUL-OKLAHOMA-CITY/events/281316537/?recEventId=281316537&recNumber=5&mu_notif_category=suggested_events)
+
+### Day 47: Tuesday Nov 2, 2021
+Solved [PE #38: Pandigital Multiples](https://github.com/lecerick/math-playground/blob/main/PE/p038_pandigital_multiples.py)
