@@ -420,3 +420,9 @@ Some interesting things to come back to:
 
 ### Day 47: Tuesday Nov 2, 2021
 Solved [PE #38: Pandigital Multiples](https://github.com/lecerick/math-playground/blob/main/PE/p038_pandigital_multiples.py)
+
+
+### Day 48: Wednesday Nov 3, 2021
+Solved [PE #39: Integer Right Triangles](https://github.com/lecerick/math-playground/blob/main/PE/p039_integer_right_triangles.py). This one was a new type of problem. It asked for the perimeter (<1000) of a right triangle that maximizes the possible integral side solutions. To solve it, I iterated through the possible combinations of sides to catalogue all the integral right triangles. Then stored these triangle solutions in a list of sets. The index of the list represented the perimeter solutions, and the set contained various tuples (a,b,c) representing the sides in each solution. Once you've pre-catalogued all of these solutions according to perimeter, you can iterate through the list of perimeters and find the maximum length of the corresponding solution sets. :)
+
+We got back from our vacation in Austin yesterday. For the rest of the week I am off work but not travelling. Hopefully I can make some good progress in learning programming!
