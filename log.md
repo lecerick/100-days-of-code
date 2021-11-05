@@ -431,3 +431,6 @@ Later in the day solved [PE #40: Champernownes Constant](https://github.com/lece
 
 ### Day 49: Thursday Nov 4, 2021
 Solved [PE #42: Coded Triangle Numbers](https://github.com/lecerick/math-playground/blob/main/PE/p042_coded_triangle_numbers.py)
+
+### Day 49: Friday Nov 5, 2021
+Solved [PE #43: Substring Divisibility](https://github.com/lecerick/math-playground/blob/main/PE/p043_substring_divisibility.py)
