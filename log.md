@@ -439,7 +439,11 @@ Solved [PE #43: Substring Divisibility](https://github.com/lecerick/math-playgro
 Solved [PE #44: Pentagon Numbers](https://github.com/lecerick/math-playground/blob/main/PE/p044_pentagon_numbers.py)
 
 ### Day 51: Sunday Nov 7, 2021
-Solved PE [#45: Triangular Pentagonal Hexagonal](https://github.com/lecerick/math-playground/blob/main/PE/p045_triangular_pentagonal_hexagonal.py), [#46: Goldbach's Other Conjecture](https://github.com/lecerick/math-playground/blob/main/PE/p046_goldbachs_other_conjecture.py), [#47: Distinct Prime Factors](https://github.com/lecerick/math-playground/blob/main/PE/p047_distinct_prime_factors.py), [#48: Self Powers](https://github.com/lecerick/math-playground/blob/main/PE/p048_self_powers.py)
+Solved 
+- [PE #45: Triangular Pentagonal Hexagonal](https://github.com/lecerick/math-playground/blob/main/PE/p045_triangular_pentagonal_hexagonal.py)
+- [PE #46: Goldbach's Other Conjecture](https://github.com/lecerick/math-playground/blob/main/PE/p046_goldbachs_other_conjecture.py)
+- [PE#47: Distinct Prime Factors](https://github.com/lecerick/math-playground/blob/main/PE/p047_distinct_prime_factors.py)
+- [PE #48: Self Powers](https://github.com/lecerick/math-playground/blob/main/PE/p048_self_powers.py)
 
 ### Day 52: Monday Nov 8, 2021
 Today I go back to work after a two-week vacation. Solved [PE #49: Prime Permutations](https://github.com/lecerick/math-playground/blob/main/PE/p049_prime_permutations.py)
