@@ -447,3 +447,9 @@ Solved
 
 ### Day 52: Monday Nov 8, 2021
 Today I go back to work after a two-week vacation. Solved [PE #49: Prime Permutations](https://github.com/lecerick/math-playground/blob/main/PE/p049_prime_permutations.py)
+
+### Day 53: Tuesday Nov 9, 2021
+Attempted PE #50 but couldn't get run time to work on threshold==10**6
+
+### Day 54: Wednesday Nov 10, 2021
+Finally found a solution to [P# #50: Consecutive Primes Sum.](https://github.com/lecerick/math-playground/blob/main/PE/p050_consecutive_prime_sum.py) Had to get clever with it.
