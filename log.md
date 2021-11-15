@@ -453,3 +453,9 @@ Attempted PE #50 but couldn't get run time to work on threshold==10**6
 
 ### Day 54: Wednesday Nov 10, 2021
 Finally found a solution to [P# #50: Consecutive Primes Sum.](https://github.com/lecerick/math-playground/blob/main/PE/p050_consecutive_prime_sum.py) Had to get clever with it.
+
+### Day 54: Thursday Nov 11, 2021
+Started PE #51 but could not arrive at a solution
+
+### Day 54: Thursday Nov 11, 2021
+Solved PE #51: Prime Digit Replacements with a [31 minute solution](https://github.com/lecerick/math-playground/blob/main/PE/p051_prime_digit_replacements.py) and after a lot of work, created a [7 second second solution](https://github.com/lecerick/math-playground/blob/main/PE/p051_prime_digit_replacements2.py)
