@@ -459,3 +459,9 @@ Started PE #51 but could not arrive at a solution
 
 ### Day 54: Thursday Nov 11, 2021
 Solved PE #51: Prime Digit Replacements with a [31 minute solution](https://github.com/lecerick/math-playground/blob/main/PE/p051_prime_digit_replacements.py) and after a lot of work, created a [7 second second solution](https://github.com/lecerick/math-playground/blob/main/PE/p051_prime_digit_replacements2.py)
+
+### Days 55 - 58: Nov 14 - 17
+Solved PE #52-53. Started PE#54 (poker).
+
+### Day 59: Thursday, Dec 2
+More work on [PE #54: Poker Hands](https://github.com/lecerick/math-playground/blob/main/PE/p054_poker_hands.pyP). It would be easier to write a poker program if I knew how to play poker lol.
