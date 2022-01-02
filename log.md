@@ -465,3 +465,6 @@ Solved PE #52-53. Started PE#54 (poker).
 
 ### Day 59: Thursday, Dec 2
 More work on [PE #54: Poker Hands](https://github.com/lecerick/math-playground/blob/main/PE/p054_poker_hands.pyP). It would be easier to write a poker program if I knew how to play poker lol.
+
+### Day 60: Sunday, Jan 2, 2022
+Well, happy new year. After a long hiatus, I did a leetcode problem today. It was only more efficient than 5% of submissions, so not good at all, but hey. It was a solution and my first time coding in a month, so I'll take that as a victory!
